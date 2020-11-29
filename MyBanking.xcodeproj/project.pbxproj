@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D83B8BB2570680500F5BCFA /* ZoomAndSnapFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D83B8BA2570680500F5BCFA /* ZoomAndSnapFlowLayout.swift */; };
+		8D83B8C3257330DD00F5BCFA /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D83B8C2257330DD00F5BCFA /* CardViewController.swift */; };
 		8D9112C4256F43EE00A6DF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9112C3256F43EE00A6DF28 /* AppDelegate.swift */; };
 		8D9112C6256F43EE00A6DF28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9112C5256F43EE00A6DF28 /* SceneDelegate.swift */; };
 		8D9112C8256F43EE00A6DF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9112C7256F43EE00A6DF28 /* ViewController.swift */; };
@@ -15,6 +17,9 @@
 		8D9112D0256F43F100A6DF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D9112CE256F43F100A6DF28 /* LaunchScreen.storyboard */; };
 		8D9112DB256F43F100A6DF28 /* MyBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9112DA256F43F100A6DF28 /* MyBankingTests.swift */; };
 		8D9112E6256F43F100A6DF28 /* MyBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9112E5256F43F100A6DF28 /* MyBankingUITests.swift */; };
+		8D911386256FB1AC00A6DF28 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D911385256FB1AC00A6DF28 /* HomeCollectionViewCell.swift */; };
+		8D91138B256FB1BF00A6DF28 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D91138A256FB1BF00A6DF28 /* HomeTableViewCell.swift */; };
+		8D911390256FB1F100A6DF28 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D91138F256FB1F100A6DF28 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D83B8BA2570680500F5BCFA /* ZoomAndSnapFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomAndSnapFlowLayout.swift; sourceTree = "<group>"; };
+		8D83B8C2257330DD00F5BCFA /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		8D9112C0256F43EE00A6DF28 /* MyBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9112C3256F43EE00A6DF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D9112C5256F43EE00A6DF28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +56,9 @@
 		8D9112E1256F43F100A6DF28 /* MyBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9112E5256F43F100A6DF28 /* MyBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBankingUITests.swift; sourceTree = "<group>"; };
 		8D9112E7256F43F100A6DF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D911385256FB1AC00A6DF28 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		8D91138A256FB1BF00A6DF28 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		8D91138F256FB1F100A6DF28 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				8D9112CC256F43F100A6DF28 /* Assets.xcassets */,
 				8D9112CE256F43F100A6DF28 /* LaunchScreen.storyboard */,
 				8D9112D1256F43F100A6DF28 /* Info.plist */,
+				8D911385256FB1AC00A6DF28 /* HomeCollectionViewCell.swift */,
+				8D91138A256FB1BF00A6DF28 /* HomeTableViewCell.swift */,
+				8D91138F256FB1F100A6DF28 /* Theme.swift */,
+				8D83B8BA2570680500F5BCFA /* ZoomAndSnapFlowLayout.swift */,
+				8D83B8C2257330DD00F5BCFA /* CardViewController.swift */,
 			);
 			path = MyBanking;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9112C8256F43EE00A6DF28 /* ViewController.swift in Sources */,
+				8D83B8BB2570680500F5BCFA /* ZoomAndSnapFlowLayout.swift in Sources */,
+				8D91138B256FB1BF00A6DF28 /* HomeTableViewCell.swift in Sources */,
 				8D9112C4256F43EE00A6DF28 /* AppDelegate.swift in Sources */,
+				8D83B8C3257330DD00F5BCFA /* CardViewController.swift in Sources */,
+				8D911390256FB1F100A6DF28 /* Theme.swift in Sources */,
 				8D9112C6256F43EE00A6DF28 /* SceneDelegate.swift in Sources */,
+				8D911386256FB1AC00A6DF28 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
